@@ -1,6 +1,9 @@
-import random
+import random       # We imported random module as we need random outputs which we will consider as the output given by computer!!
 
-# Snake Water Gun or Rock Paper Scissors
+# Snake Water Gun or Rock Paper Scissors, We can make any game using the same logic as we've used in this
+# Below I'm making this famous "Rock, Paper & Scissors" game!
+
+# Below we created a function that takes two argument first is computer and second is us!
 def gameWin(comp, you):
     # If two values are equal, declare a tie!
     if comp == you:
